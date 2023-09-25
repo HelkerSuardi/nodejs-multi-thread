@@ -1,0 +1,10 @@
+{
+  "name": "node-multi-thread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "workers": "node index-with-worker.js",
+    "no-workers": "node index-without-worker.js"
+  }
+}
